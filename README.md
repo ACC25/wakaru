@@ -1,1 +1,1 @@
-# wakaru
+# Wakaru - To understand
