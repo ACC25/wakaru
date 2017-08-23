@@ -1,10 +1,10 @@
-## Interactions for Wakaru
+## Interactions for Wakaru Source Emails
 
 ### Basic Information
 
 + Name: Wakaru
 + Description: Company that specializes in surfboards
-+ Products: Surfboard repairs, building surf boards, purchasing pre-built surfboards, surf accessories and surf clothing
++ Products: Surfboard repairs, building surf boards, purchasing pre-built surfboards, surf accessories and wetsuits
 
 ### Interaction Pattern
 
@@ -16,6 +16,9 @@ Each email chain will have four messages:
 + Fourth: company closes ticket by granting or denying request, and provides reasoning
   + for `good` templates, reasoning is expected  
   + For `bad` templates, excluding reasoning is a legitimate tactic for increasing negative tone
+
+Based on the article (link here), there is a larger statistical difference between how customers perceive tonnage based on whether their request is denied or granted, so the goal of the source emails is to help highlight the tonnage of denying/granting interactions. For instance, we are ignoring `granting_request_bad` emails because, according to the study, customers would not necessarily care what the tonnage is if they are getting what they want. Based on time constraints, it is more useful to quantify the tonnage of interactions that we know customers will like or dislike.
+
 ### Possible interactions
 
 #### Surfboards
@@ -32,8 +35,8 @@ Each email chain will have four messages:
 + Querying materials used on a particular accessory
 + Querying warranty policy
 
-#### Clothing
+#### wetsuits
 
-+ Querying clothing inventory sizes for specific article
++ Querying clothing inventory sizes for a specific article
 + Querying materials used on a particular article
 + Querying warranty policy

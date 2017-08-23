@@ -1,3 +1,5 @@
+Interaction: Customer queries surf board warranty
+
 From: customerServiceOne <customerServiceOne@wakaru.com>
 Date: Sunday, August 20, 2017 at 3:15 PM
 To: customerOne <customerOne@wakaru.com>
