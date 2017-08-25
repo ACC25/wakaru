@@ -54,17 +54,19 @@ Public results will be sorted into three categories upon receipt:
 + [surfboard_inventory_denying_request_good](https://docs.google.com/forms/d/e/1FAIpQLScuCogyfMJhqIxdlJ_3yJRvhNZSPTjkg17IVP6nELxZBswIGQ/viewform)
 + [surfboard_inventory_denying_request_bad](https://docs.google.com/forms/d/e/1FAIpQLScJCVeolCzqM8ov8Lq1BOnFuK3omjeXKQ1Sh4_lLgtt5eNs9w/viewform)
 
-###### TBD
+###### Accessories Inventory Queries
 
-###### TBD
++ [accessories_inventory_granting_request_good](https://docs.google.com/forms/d/e/1FAIpQLScWom1heXxXdFKZLwz_6PYwk-pyhb30LLdeM4qCnSNv4sA1hQ/viewform)
++ [accessories_inventory_denying_request_good](https://docs.google.com/forms/d/e/1FAIpQLSdaTJ8zTCF-PMeNwJArCte7oUGFzY_CqrgrHCy8CBQBpb8q2A/viewform)
++ [accessories_inventory_denying_request_bad](https://docs.google.com/forms/d/e/1FAIpQLSfIh8z6IsyO1QPY_B7SLRQO670wsRGeO0_uUYMwJtATt5xz4g/viewform)
 
-### Source Form Prompts
+### Public Result Form Prompts
 
-###### Wait Time Queries
+###### Wait Time Queries Prompts
 + [wait_time_granting_request_good](https://gist.github.com/ACC25/afc46f97a452066066de3d81d92b3b09)
 + [wait_time_denying_request_good](https://gist.github.com/ACC25/fb92ef1830633fc0e685dcf7f151e1d4)
 + [wait_time_denying_request_bad](https://gist.github.com/ACC25/9ff0d79cb34a32e9a07459759d12af5c)
-###### Warranty Queries
+###### Warranty Queries Prompts
 + [warranty_granting_request_good](https://gist.github.com/ACC25/40b81154cd968225beaf37bd61606097)
 + [warranty_denying_request_good](https://gist.github.com/ACC25/0200d775b4efc996e3200ba1e19b4464)
 + [warranty_denying_request_bad](https://gist.github.com/ACC25/ebf6aa3bb0905f0cce3397f75fd4f46b)
