@@ -10,7 +10,7 @@
 
 + `public result` refers to the result from the google form, submitted by an anonymous volunteer, which is designed to `loosely` mimic an email conversation between a customer and customer service representative
 + `private result` refers to the result from the google form, submitted by an approved source, which is designed to `closely` mimic a real conversation between a customer and customer service representative
-+ `professional result` refers to the result from the google form, submitted by an approved source, which is a `exact` copy of a real world answer by a customer service professional
++ `professional result` refers to the result from the google form, submitted by an approved source, which is an `exact` copy of a real world answer by a customer service professional
 
 ### Interaction Pattern
 
@@ -48,6 +48,11 @@ Public results will be sorted into three categories upon receipt:
 + [warranty_denying_request_bad](https://docs.google.com/forms/d/e/1FAIpQLScl-QX2IaLG3-EZkCDtad238I-n9kov21G1CufpFvrmnQKrVw/viewform)
 
 #### Private result forms
+
+###### Surfboard Inventory Queries
++ [surfboard_inventory_granting_request_good](https://docs.google.com/forms/d/e/1FAIpQLSeqpH_KoPa_rebbqDp-NlFu5xODtJMGTiriCFA9idVaE7JiSQ/viewform)
++ [surfboard_inventory_denying_request_good](https://docs.google.com/forms/d/e/1FAIpQLScuCogyfMJhqIxdlJ_3yJRvhNZSPTjkg17IVP6nELxZBswIGQ/viewform)
++ [surfboard_inventory_denying_request_bad](https://docs.google.com/forms/d/e/1FAIpQLScJCVeolCzqM8ov8Lq1BOnFuK3omjeXKQ1Sh4_lLgtt5eNs9w/viewform)
 
 ###### TBD
 
