@@ -24,7 +24,9 @@ Hi Customer One,
 
 I'm sorry to hear your board was dented, that is very frustrating.
 
-Unfortunately we cannot cover the cost of the repair, but we can get you into the repair shop as soon as possible. If you can drop the board off in the next few days, we can try and get you back on the water for the weekend.
+Unfortunately we cannot cover the cost of the repair, but we can get you into
+the repair shop as soon as possible. If you can drop the board off in the next
+few days, we can try and get you back on the water for the weekend.
 
 We also have rentals available if you have an immediate need for a board.
 
@@ -40,5 +42,6 @@ gladly expedite the repair of your board.
 Are you able to bring the board to our repair shop sometime this week?
 We will work as hard as we can to get it back to you as soon as possible.
 
-Thank you for your patience and let me know if there is anything else I can do for you.
+Thank you for your patience and let me know if there is anything else I can do
+for you.
 ```

@@ -24,7 +24,9 @@ Hi Customer One,
 
 That really sucks your board was damaged :(
 
-It doesn't look you purchased a warranty with your board, so we can't help you. Feel free to bring it by our repair shop (where normal rates apply) though. We have a quick turnaround time.
+It doesn't look you purchased a warranty with your board, so we can't help you.
+Feel free to bring it by our repair shop (where normal rates apply) though. We
+have a quick turnaround time.
 
 Have a good day.
 ```
@@ -34,5 +36,7 @@ Hey Customer One,
 
 That's really unfortunate you damaged your board.
 
-Bad news. We cannot cover the cost of the repair -- company policy. We have plenty of rentals you can choose from while you wait for your board to be repaired though.
+Bad news. We cannot cover the cost of the repair -- company policy. We have
+plenty of rentals you can choose from while you wait for your board to be
+repaired though.
 ```
