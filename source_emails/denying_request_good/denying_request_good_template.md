@@ -8,7 +8,7 @@
 
 Hey!
 
-I bought one of your surf boards last week and have unfortunately dented it already. Is there any way the repair can be covered under the warranty? I have the receipt handy.
+I bought one of your surf boards last week and have unfortunately severely dented it already. Is there any way you can cover the repair cost? I'm not sure if I purchased a warranty or not. I have the receipt handy (transaction #123456789).
 
 Thanks!
 
@@ -17,33 +17,20 @@ Thanks!
 #### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Saturday, August 19, 2017 at 4:54 PM
 #### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
 
-POSSIBLE RESPONSE
+POSSIBLE RESPONSES
 
 ```text
 Hi Customer One,
 
 I'm sorry to hear your board was dented, that is very frustrating.
 
-Could you provide me with the transaction number on the receipt? I will check
-our system and let you know what the warranty policy on your board is.
+Unfortunately we cannot cover the cost of the repair, but we can get you into the repair shop as soon as possible. If you can drop the board off in the next few days, we can try and get you back on the water for the weekend.
 
-Thank you for taking the time to email us.
+We also have rentals available if you have an immediate need for a board.
+
+Thank you for your patience and understanding.
 ```
 
-#### On Aug 20, 2017, at 9:19 AM, customerOne <customerOne@wakaru.com> wrote:
-
-Hi Customer Service One,
-
-My transaction number is #123456789. Let me know if you need anymore information!
-
-Thanks.
-
-Customer One
-
-#### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Sunday, August 20, 2017 at 3:15 PM
-#### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
-
-POSSIBLE RESPONSE
 ```text
 Hi Customer One,
 
@@ -53,4 +40,5 @@ gladly expedite the repair of your board.
 Are you able to bring the board to our repair shop sometime this week?
 We will work as hard as we can to get it back to you as soon as possible.
 
-Thank you for your patience and let me know if there is anything else I can do for you. 
+Thank you for your patience and let me know if there is anything else I can do for you.
+```

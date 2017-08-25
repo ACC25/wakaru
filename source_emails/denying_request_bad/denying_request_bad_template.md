@@ -8,7 +8,7 @@
 
 Hey!
 
-I bought one of your surf boards last week and have unfortunately dented it already. Is there any way the repair can be covered under the warranty? I have the receipt handy.
+I bought one of your surf boards last week and have unfortunately severely dented it already. Is there any way you can cover the repair cost? I'm not sure if I purchased a warranty or not. I have the receipt handy (transaction #123456789).
 
 Thanks!
 
@@ -17,32 +17,22 @@ Thanks!
 #### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Saturday, August 19, 2017 at 4:54 PM
 #### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
 
-POSSIBLE RESPONSE
+POSSIBLE RESPONSES
 
 ```text
 Hi Customer One,
 
-That sucks your board was ruined.
+That really sucks your board was damaged :(
 
-What is the transaction number from your receipt? I'll ask someone to check our system.
+It doesn't look you purchased a warranty with your board, so we can't help you. Feel free to bring it by our repair shop (where normal rates apply) though. We have a quick turnaround time.
+
+Have a good day.
 ```
 
-#### On Aug 20, 2017, at 9:19 AM, customerOne <customerOne@wakaru.com> wrote:
-
-Hi Customer Service One,
-
-My transaction number is #123456789. Let me know if you need anymore information!
-
-Thanks.
-
-Customer One
-
-#### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Sunday, August 20, 2017 at 3:15 PM
-#### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
-
-POSSIBLE RESPONSE
 ```text
-Bad news :(
+Hey Customer One,
 
-You didn't purchase a warranty with your board, so we can't help you. Feel free to bring it by
-our repair shop (where normal rates apply) though. We have a quick turn around time. 
+That's really unfortunate you damaged your board.
+
+Bad news. We cannot cover the cost of the repair -- company policy. We have plenty of rentals you can choose from while you wait for your board to be repaired though.
+```

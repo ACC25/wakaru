@@ -7,7 +7,7 @@
 
 Hey!
 
-I bought one of your surf boards last week and have unfortunately dented it already. Is there any way the repair can be covered under the warranty? I have the receipt handy.
+I bought one of your surf boards last week and have unfortunately severely dented it already. Is there any way you can cover the repair cost? I'm not sure if I purchased a warranty or not. I have the receipt handy (transaction #123456789).
 
 Thanks!
 
@@ -16,39 +16,22 @@ Thanks!
 #### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Saturday, August 19, 2017 at 4:54 PM
 #### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
 
-POSSIBLE RESPONSE
+POSSIBLE RESPONSES
+
+```text
+Good news Customer One!
+
+I checked in our system and although you did not purchase a warranty plan last week, we want to offer you a complementary repair since your board is so new. You can drop the board off at our
+shop anytime this week and we will get it back to you as soon as possible.
+
+Stay safe out there!
+```
 
 ```text
 Hi Customer One,
 
-I'm sorry to hear your board was damaged.
+It doesn't look like you purchased a warranty plan last week, but we appreciate how frustrating damaging a board is and we want to offer a complimentary repair. You can drop the board off at our
+shop anytime this week and we will get it back to you as soon as possible.
 
-Could you provide me with the transaction number on the receipt? I will check our system
-and let you know what the warranty policy on your board is.
-
-Thank you for taking the time to email us.
-```
-
-#### On Aug 20, 2017, at 9:19 AM, customerOne <customerOne@wakaru.com> wrote:
-
-Hi Customer Service One,
-
-My transaction number is #123456789. Let me know if you need anymore information!
-
-Thanks.
-
-Customer One
-
-#### From: customerServiceOne <customerServiceOne@wakaru.com> Date: Sunday, August 20, 2017 at 3:15 PM
-#### To: customerOne <customerOne@wakaru.com> Subject: Re: Surf Board Repair
-
-POSSIBLE RESPONSE
-```text
-Good news Customer One!
-
-Although you did not purchase a warranty plan last week, we want to offer you a
-complementary repair since your board is so new. You can drop the board off at our shop anytime
-this week and we will get it back to you as soon as possible.
-
-Stay safe out there!
+Thank you for taking the time to write us.
 ```
