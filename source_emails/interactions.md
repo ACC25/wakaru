@@ -1,4 +1,4 @@
-## Interactions for Wakaru Source Emails
+## Interactions for Wakaru Source Data
 
 ### Fictional Company Information
 
@@ -41,7 +41,7 @@ Email prompts for public results:
 + [warranty_denying_request_bad](https://gist.github.com/ACC25/ebf6aa3bb0905f0cce3397f75fd4f46b)
 
 
-Based on this study (link here), there is a larger statistical difference in how customers perceive tonnage based on whether their request is denied or granted vs general tonnage across all interactions, so the goal of the source emails is to help highlight the tonnage of denying/granting interactions. For instance, we are ignoring `granting_request_bad` emails because customers would not necessarily care what the tonnage is if they are getting what they want. Based on time constraints, it is more useful to quantify the tonnage of interactions that we know customers will likely find more impactful on their overall experience.
+Based on this study (link here), there is a larger statistical difference in how customers perceive tone based on whether their request is denied or granted vs general tonnage across all interactions, so the goal of the source emails is to help highlight the tone of denying/granting interactions. For instance, we are ignoring `granting_request_bad` emails because customers would not necessarily care what the tone is if they are getting what they want. Based on time constraints, it is more useful to quantify the tone of interactions that we know customers will likely find more impactful on their overall experience.
 
 ### Possible interactions
 
