@@ -1,3 +1,2 @@
-# Wakaru - 分かる
-## To Understand
+# Wakaru - 分かる - To Understand
 
