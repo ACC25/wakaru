@@ -5,7 +5,6 @@
 + [Introduction](##Introduction)
 + [Methodology](##Methodology)
 + [Usage](##Usage)
-+ 
 
 ## Introduction
 
