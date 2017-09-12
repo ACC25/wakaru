@@ -5,6 +5,8 @@
 + [Introduction](##Introduction)
 + [Methodology](##Methodology)
 + [Usage](##Usage)
++ [Backend](##Backend)
++ [Frontend](##Frontend)
 
 ## Introduction
 
@@ -19,3 +21,11 @@ Wakaru, the tone analyzer app, aims to present these conclusions to businesses i
 ## Methodology
 
 ## Usage
+
+## Backend
+
+The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification. 
+
+## Frontend
+
+The frontend for Wakaru was build with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data. 
