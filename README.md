@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-+ [Introduction](##Introduction)
-+ [Methodology](##Methodology)
-+ [Usage](##Usage)
-+ [Backend](##Backend)
-+ [Frontend](##Frontend)
++ [Introduction](##introduction)
++ [Methodology](##methodology)
++ [Usage](##usage)
++ [Backend](##backend)
++ [Frontend](##frontend)
 
 ## Introduction
 
