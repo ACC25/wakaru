@@ -10,7 +10,6 @@
 
 + `public result` refers to the result from the google form, submitted by an anonymous volunteer, which is designed to `loosely` mimic an email conversation between a customer and customer service representative
 + `private result` refers to the result from the google form, submitted by an approved source, which is designed to `closely` mimic a real conversation between a customer and customer service representative
-+ `professional result` refers to the result from the google form, submitted by an approved source, which is an `exact` copy of a real world answer by a customer service professional
 
 ### Interaction Pattern
 
@@ -20,11 +19,6 @@ Each form will have two messages:
 + Second: company's response
   + for `good` responses, reasoning is expected  
   + For `bad` responses, excluding reasoning is a legitimate tactic for increasing negative tone
-
-### Source Weight
-
-+ `public results` will be weighed TBD%
-+ `private results` will be weighed TBD%
 
 ### Source Organization
 
@@ -70,9 +64,6 @@ Public results will be sorted into three categories upon receipt:
 + [warranty_granting_request_good](https://gist.github.com/ACC25/40b81154cd968225beaf37bd61606097)
 + [warranty_denying_request_good](https://gist.github.com/ACC25/0200d775b4efc996e3200ba1e19b4464)
 + [warranty_denying_request_bad](https://gist.github.com/ACC25/ebf6aa3bb0905f0cce3397f75fd4f46b)
-
-
-Based on this study (link here), there is a larger statistical difference in how customers perceive tone based on whether their request is denied or granted vs general tonnage across all interactions, so the goal of the source emails is to help highlight the tone of denying/granting interactions. For instance, we are ignoring `granting_request_bad` emails because customers would not necessarily care what the tone is if they are getting what they want. Based on time constraints, it is more useful to quantify the tone of interactions that we know customers will likely find more impactful on their overall experience.
 
 ### Possible interactions
 
