@@ -54,7 +54,7 @@ The frontend for Wakaru was built with React and can be found [here](https://git
 ## Frontend Setup
 
 + Clone the repository `git clone git@github.com:ACC25/wakaru-frontend.git`
-+ cd into `wakaru-frontend`
++ Cd into `wakaru-frontend`
 + Run `npm install`
 + Run `PORT=3030 npm start`
 + Visit `localhost:3030` in your browser, while the backend is still running, and use the following credentials to login:
