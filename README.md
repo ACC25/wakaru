@@ -43,6 +43,19 @@ Wakaru is based on a collection of sample data, taken from anonymous and approve
 + Run `rails s`
 + Follow the instructions in frontend setup 
 
+## Frontend Setup
+
++ Clone the repository `git clone git@github.com:ACC25/wakaru-frontend.git`
++ cd into `wakaru-frontend`
++ Run `npm install`
++ Run `PORT=3030 npm start`
++ Visit `localhost:3030` in your browser, while the backend is still running, and use the following credentials to login:
+
+    ```text
+    Username: Wakaru
+    Password: password
+    ```
+
 ## Backend
 
 The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification. 
