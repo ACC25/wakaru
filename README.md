@@ -11,9 +11,9 @@
 
 ## Introduction
 
-Curating user experiences has become central to many industries in the digital age, where presenting a unified story, across company and product, is central to a holistic marketing strategy. Customer Service represents one of the pillars of business and controlling a user’s experience in that area is important to presenting a unified front. 
+Curating user experiences has become central to many industries in the digital age, where presenting a unified story, across company and product, is central to a holistic marketing strategy. Customer Service represents one of the pillars of business and controlling a user’s experience in that area is important to presenting a unified front.
 
-With the emergence of accessible natural language processing technologies, such as IBM’s Watson Tone Analyzer, companies can now track the language and tone of their front-facing employees — such as customer service agents. 
+With the emergence of accessible natural language processing technologies, such as IBM’s Watson Tone Analyzer, companies can now track the language and tone of their front-facing employees — such as customer service agents.
 
 This project is focused on developing methodologies to manage the data received from these natural language processing programs, in such a way as to infer whether front-facing employees are contributing to the story of a business or hurting its overall brand.
 
@@ -27,11 +27,11 @@ Wakaru is based on a collection of sample data, taken from anonymous and approve
 
 ## Backend
 
-The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification. 
+The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification.
 
 ## Frontend
 
-The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data. 
+The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data.
 
 ## Pictures
 
@@ -41,8 +41,9 @@ The frontend for Wakaru was built with React and can be found [here](https://git
 + Cd into `wakaru-backend`
 + Run `bundle install`
 + Run `bundle exec figaro install`
-+ Create an IBM Bluemix account and get credentials for Tone Analyzer and Natural Language Processing services.
-+ Open `config/application.yml` and add your Watson credentials to these environmental variables:
++ Create an IBM Bluemix account and get credentials for the Tone Analyzer and Natural Language Processing services.
++ Open `config/application.yml` and add your Watson credentials to the following: environmental variables:
+
     ```text
     watson_tone_username: ""
     watson_tone_password: ""
@@ -52,7 +53,7 @@ The frontend for Wakaru was built with React and can be found [here](https://git
     ```
 + Run `rake db:seed`
 + Run `rails s`
-+ Follow the instructions in frontend setup 
++ Follow the instructions in frontend setup
 
 ## Frontend Setup
 
