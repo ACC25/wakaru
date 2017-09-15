@@ -4,7 +4,7 @@
 
 + [Introduction](#introduction)
 + [Methodology](#methodology)
-+ [Usage](#usage)
++ [Setup](#backend-setup)
 + [Backend](#backend)
 + [Frontend](#frontend)
 
@@ -24,7 +24,24 @@ To read a full breakdown of the methodologies used in Wakaru, please refer to th
 
 Wakaru is based on a collection of sample data, taken from anonymous and approved sources, designed to mimic the interactions customers might have with customer service representatives. The raw sample data can be found [here](https://github.com/ACC25/wakaru/tree/master/source_emails). A breakdown of the sample data can be found [here](https://github.com/ACC25/wakaru/blob/master/source_emails/interactions.md).
 
-## Usage
+## Backend Setup
+
++ Clone the repository `git clone git@github.com:ACC25/wakaru.git`
++ Cd into `wakaru-backend`
++ Run `bundle install`
++ Run `bundle exec figaro install`
++ Create an IBM Bluemix account and get credentials for Tone Analyzer and Natural Language Processing services.
++ Open `config/application.yml` and add your Watson credentials to these environmental variables:
+    ```text
+    watson_tone_username: ""
+    watson_tone_password: ""
+
+    watson_nlp_username: ""
+    watson_nlp_password: ""
+    ```
++ Run `rake db:seed`
++ Run `rails s`
++ Follow the instructions in frontend setup 
 
 ## Backend
 
