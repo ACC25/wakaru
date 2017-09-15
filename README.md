@@ -4,9 +4,9 @@
 
 + [Introduction](#introduction)
 + [Methodology](#methodology)
-+ [Setup](#backend-setup)
 + [Backend](#backend)
 + [Frontend](#frontend)
++ [Setup](#backend-setup)
 
 ## Introduction
 
