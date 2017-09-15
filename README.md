@@ -6,6 +6,7 @@
 + [Methodology](#methodology)
 + [Backend](#backend)
 + [Frontend](#frontend)
++ [Pictures](#pictures)
 + [Setup](#backend-setup)
 
 ## Introduction
@@ -31,6 +32,8 @@ The backend for Wakaru was built with Rails and can be found [here](https://gith
 ## Frontend
 
 The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data. 
+
+## Pictures
 
 ## Backend Setup
 
