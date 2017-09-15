@@ -24,6 +24,14 @@ To read a full breakdown of the methodologies used in Wakaru, please refer to th
 
 Wakaru is based on a collection of sample data, taken from anonymous and approved sources, designed to mimic the interactions customers might have with customer service representatives. The raw sample data can be found [here](https://github.com/ACC25/wakaru/tree/master/source_emails). A breakdown of the sample data can be found [here](https://github.com/ACC25/wakaru/blob/master/source_emails/interactions.md).
 
+## Backend
+
+The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification. 
+
+## Frontend
+
+The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data. 
+
 ## Backend Setup
 
 + Clone the repository `git clone git@github.com:ACC25/wakaru.git`
@@ -55,11 +63,3 @@ Wakaru is based on a collection of sample data, taken from anonymous and approve
     Username: Wakaru
     Password: password
     ```
-
-## Backend
-
-The backend for Wakaru was built with Rails and can be found [here](https://github.com/ACC25/wakaru-backend). It connects with the frontend using JSON Web Tokens and houses all the logic for email classification. 
-
-## Frontend
-
-The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data. 
