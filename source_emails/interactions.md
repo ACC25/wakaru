@@ -1,11 +1,5 @@
 ## Interactions for Wakaru Source Data
 
-### Fictional Company Information
-
-+ Name: Wakaru
-+ Description: Company that specializes in surfboards
-+ Products: Surfboard repairs, building surf boards, purchasing pre-built surfboards, surf accessories and wetsuits
-
 ### Definitions
 
 + `public result` refers to the result from the google form, submitted by an anonymous volunteer, which is designed to `loosely` mimic an email conversation between a customer and customer service representative
