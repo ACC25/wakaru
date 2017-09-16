@@ -7,6 +7,7 @@
 + [Backend](#backend)
 + [Frontend](#frontend)
 + [Pictures](#pictures)
++ [Usage](#usage)
 + [Setup](#backend-setup)
 
 ## Introduction
@@ -34,6 +35,21 @@ The backend for Wakaru was built with Rails and can be found [here](https://gith
 The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data.
 
 ## Pictures
+
+## Usage
+
+Wakaru is a proof of concept for classifying emails, and the frontend only supports sending one email response at a time -- for now. The backend can handle much more traffic than the app currently allows. The text area on the homepage is designed to receive a pasted email response for classification.
+
++ To use the the live application, visit [here](https://notalinkyet), and use the following login credentials:
+
+    ```text
+    Username: Wakaru
+    Password: password
+    ```
+
++ If you wish to create an account, be aware that the you should set fixtures for several text snippets before expecting any accuracy in the predictions. You can set fixtures by clicking the `good, medium, bad` buttons on the home page before submitting it for classification. In later iterations, new accounts will have access to a default set of data (the same as the public account) to avoid any immediate inaccuracies, but that feature is not yet implemented.
+
++ If you use the public username, be aware that the anyone can set fixtures and manipulate the results.
 
 ## Backend Setup
 
