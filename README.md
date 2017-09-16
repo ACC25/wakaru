@@ -18,7 +18,7 @@ With the emergence of accessible natural language processing technologies, such 
 
 This project is focused on developing methodologies to manage the data received from these natural language processing programs, in such a way as to infer whether front-facing employees are contributing to the story of a business or hurting its overall brand.
 
-Wakaru, the tone analyzer app, aims to present these conclusions to businesses in an easy to understand manner.  
+Wakaru, the tone aggregator app, aims to present these conclusions to businesses in an easy to understand manner.  
 
 ## Methodology
 
