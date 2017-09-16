@@ -71,18 +71,9 @@ Public results will be sorted into three categories upon receipt:
 
 + Querying inventory on already built boards
 + Querying wait times for building a board
-+ Querying materials used for building a board
-+ Querying wait times for surfboard repairs
 + Querying warranty policy
 
 #### Accessories
 
 + Querying inventory on accessories
-+ Querying materials used on a particular accessory
-+ Querying warranty policy
-
-#### wetsuits
-
-+ Querying clothing inventory sizes for a specific article
-+ Querying materials used on a particular article
 + Querying warranty policy
