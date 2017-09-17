@@ -8,7 +8,7 @@
 + [Frontend](#frontend)
 + [Usage](#usage)
 + [Setup](#backend-setup)
-+ [Pictures](#pictures)
++ [Media](#media)
 
 ## Introduction
 
@@ -87,6 +87,12 @@ There is a bug related to the `good` fixture button appearing to be selected by 
     Password: password
     ```
     
-## Pictures
+## Media
 
+![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/login.gif)
 
+![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/submit.gif)
+
+![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/fixture.gif)
+
+![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/overall.jpeg)
