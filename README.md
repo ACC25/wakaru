@@ -70,7 +70,7 @@ There is a bug related to the `good` fixture button appearing to be selected by 
     watson_nlp_password: ""
     ```
 + You will also need to run `rake secret` and copy the output into an environmental variable called `rails_secret_key_base: ""`
-+ Run `rake db:seed`
++ Run `rake db:create`, `rake db:migrate`, `rake db:seed`
 + Run `rails s`
 + Follow the instructions in frontend setup
 
