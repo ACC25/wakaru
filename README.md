@@ -6,9 +6,9 @@
 + [Methodology](#methodology)
 + [Backend](#backend)
 + [Frontend](#frontend)
-+ [Pictures](#pictures)
 + [Usage](#usage)
 + [Setup](#backend-setup)
++ [Pictures](#pictures)
 
 ## Introduction
 
@@ -34,8 +34,6 @@ The backend for Wakaru was built with Rails and can be found [here](https://gith
 
 The frontend for Wakaru was built with React and can be found [here](https://github.com/ACC25/wakaru-frontend). It connects with the backend using JSON Web Tokens and houses all the logic for displaying email classification data.
 
-## Pictures
-
 ## Usage
 
 Wakaru is a proof of concept for classifying emails, and the frontend only supports sending one email response at a time -- for now. The backend can handle much more traffic than the app currently allows. The text area on the homepage is designed to receive a pasted email response for classification.
@@ -52,6 +50,8 @@ Wakaru is a proof of concept for classifying emails, and the frontend only suppo
 + If you use the public username, be aware that the anyone can set fixtures and manipulate the results.
 
 The graphs produced when you submit an email response are grouped by category--good, medium, bad--from left to right. Each grouping has three bars for Enjoyment Score (green), Big 5 Score (orange) and Dissatisfaction Score (red). The bars are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red), a higher score is a good thing. All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays. 
+
+There is a bug related to the `good` fixture button appearing to be selected by default. This is a visual issue and does not reflect what is actually selected. There is an open issue to fix it [here](https://github.com/mu29/react-radio-buttons/issues/11).
 
 ## Backend Setup
 
@@ -86,3 +86,7 @@ The graphs produced when you submit an email response are grouped by category--g
     Username: Wakaru
     Password: password
     ```
+    
+## Pictures
+
+
