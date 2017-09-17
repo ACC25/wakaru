@@ -88,11 +88,11 @@ There is a bug related to the `good` fixture button appearing to be selected by 
     ```
     
 ## Media
-Login process:
++ Login process:
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/login.gif)
-Submitting an email:
++ Submitting an email:
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/submit.gif)
-Setting a fixture on a new email:
++ Setting a fixture on a new email:
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/fixture.gif)
-Overall view:
++ Overall view:
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/overall.jpeg)
