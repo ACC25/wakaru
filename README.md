@@ -60,7 +60,7 @@ The graphs produced when you submit an email response are grouped by category--g
 + Run `bundle install`
 + Run `bundle exec figaro install`
 + Create an IBM Bluemix account and get credentials for the Tone Analyzer and Natural Language Processing services.
-+ Open `config/application.yml` and add your Watson credentials to the following: environmental variables:
++ Open `config/application.yml` and add your Watson credentials to the following environmental variables:
 
     ```text
     watson_tone_username: ""
@@ -69,6 +69,7 @@ The graphs produced when you submit an email response are grouped by category--g
     watson_nlp_username: ""
     watson_nlp_password: ""
     ```
++ You will also need to run `rake secret` and copy the output into an environmental variable called `rails_secret_key_base: ""`
 + Run `rake db:seed`
 + Run `rails s`
 + Follow the instructions in frontend setup
