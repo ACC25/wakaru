@@ -40,7 +40,7 @@ The frontend for Wakaru was built with React and can be found [here](https://git
 
 Wakaru is a proof of concept for classifying emails, and the frontend only supports sending one email response at a time -- for now. The backend can handle much more traffic than the app currently allows. The text area on the homepage is designed to receive a pasted email response for classification.
 
-+ To use the the live application, visit [here](https://notalinkyet), and use the following login credentials:
++ To use the the live application, visit [here](https://wakaru.herokuapp.com), and use the following login credentials:
 
     ```text
     Username: Wakaru
