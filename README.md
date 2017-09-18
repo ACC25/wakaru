@@ -12,8 +12,6 @@
 
 ## Introduction
 
-Curating user experiences has become central to many industries in the digital age, where presenting a unified story, across company and product is central to a holistic marketing strategy. Customer Service represents one of the pillars of business and controlling a user’s experience in that area is important to presenting a unified front.
-
 With the emergence of accessible natural language processing technologies, such as IBM’s Watson Tone Analyzer, companies can now track the language and tone of their front-facing employees — such as customer service agents.
 
 This project is focused on developing methodologies to manage the data received from these natural language processing programs, in such a way as to infer whether front-facing employees are contributing to the story of a business or hurting its overall brand.
@@ -49,7 +47,7 @@ Wakaru is a proof of concept for classifying emails, and the frontend only suppo
 
 + If you use the public username, be aware that the anyone can set fixtures and manipulate the results.
 
-The graphs produced when you submit an email response are grouped by category--good, medium, bad--from left to right. Each grouping has three bars for Enjoyment Score (green), Big 5 Score (orange) and Dissatisfaction Score (red). The bars are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red), a higher score is a good thing. All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays. 
+The graphs produced when you submit an email response are grouped by category--good, medium, bad--from left to right. Each grouping has three bars for Enjoyment Score (green), Big 5 Score (orange) and Dissatisfaction Score (red). The bars are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red), a higher score is a good thing. All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays.
 
 There is a bug related to the `good` fixture button appearing to be selected by default. This is a visual issue and does not reflect what is actually selected. There is an open issue to fix it [here](https://github.com/mu29/react-radio-buttons/issues/11).
 
@@ -86,7 +84,7 @@ There is a bug related to the `good` fixture button appearing to be selected by 
     Username: Wakaru
     Password: password
     ```
-    
+
 ## Media
 + Login process:
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/login.gif)
