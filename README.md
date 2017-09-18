@@ -20,7 +20,7 @@ Wakaru, the tone aggregator app, aims to present these conclusions to businesses
 
 ## Methodology
 
-To read a full breakdown of the methodologies used in Wakaru, please refer to the research paper found [here](https://github.com/ACC25/wakaru/blob/master/wakaru_paper.docx).
+To read a full breakdown of the methodologies used in Wakaru, please refer to the research paper found [here](https://github.com/ACC25/wakaru/blob/master/wakaru_paper.pdf).
 
 Wakaru is based on a collection of sample data, taken from anonymous and approved sources, designed to mimic the interactions customers might have with customer service representatives. The raw sample data can be found [here](https://github.com/ACC25/wakaru/tree/master/source_emails). A breakdown of the sample data can be found [here](https://github.com/ACC25/wakaru/blob/master/source_emails/interactions.md).
 
