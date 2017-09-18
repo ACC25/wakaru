@@ -43,7 +43,7 @@ Wakaru is a proof of concept for classifying emails, and the frontend only suppo
     Password: password
     ```
 
-+ After logging in, you can set fixtures by clicking the `good, medium, bad` buttons on the home page before submitting it for classification. Fixtures are treated as anchors in Wakaru’s analysis, in that they help define email categories. When you set a fixture, every email in your account is reclassified using the new parameter. Through the use of fixtures, your results will be tailored to your specific needs and reflect your professional requirements. By choosing `no fixture`, you are letting Wakaru classify the email. 
++ After logging in, you can set fixtures by clicking the `good, medium, bad` buttons on the home page before submitting it for classification. Fixtures are treated as anchors in Wakaru’s analysis, in that they help define email categories. When you set a fixture, every email in your account is reclassified using the new parameter. Through the use of fixtures, your results will be tailored to your specific needs and reflect your professional requirements. By choosing `no fixture`, you are letting Wakaru classify the email for you. 
 
 + If you use the public username, be aware that the anyone can set fixtures and manipulate the results.
 
