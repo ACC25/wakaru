@@ -13,6 +13,10 @@
 !/log/.keep
 !/tmp/.keep
 
+wakaru_paper.docx
+
+~$karu_paper.docx
+
 .DS_Store
 
 /node_modules
