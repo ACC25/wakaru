@@ -20,8 +20,6 @@ Wakaru, the tone aggregator app, aims to present these conclusions to businesses
 
 ## Methodology
 
-To read a full breakdown of the methodologies used in Wakaru, please refer to the research paper found [here](https://github.com/ACC25/wakaru/blob/master/wakaru_paper.pdf).
-
 Wakaru is based on a collection of sample data, taken from anonymous and approved sources, designed to mimic the interactions customers might have with customer service representatives. The raw sample data can be found [here](https://github.com/ACC25/wakaru/tree/master/source_emails). A breakdown of the sample data can be found [here](https://github.com/ACC25/wakaru/blob/master/source_emails/interactions.md).
 
 ## Backend
@@ -34,7 +32,7 @@ The frontend for Wakaru was built with React and can be found [here](https://git
 
 ## Usage
 
-Wakaru is a proof of concept for classifying emails, and the frontend only supports sending one email response at a time -- for now. The backend can handle much more traffic than the app currently allows. The text area on the homepage is designed to receive a pasted email response for classification.
+Wakaru is a proof of concept for classifying emails, and the frontend only supports sending one email response at a time. The text area on the homepage is designed to receive a pasted email response for classification.
 
 + To use the the live application, visit [here](https://wakaru.herokuapp.com), and use the following login credentials or create an account:
 
@@ -43,11 +41,17 @@ Wakaru is a proof of concept for classifying emails, and the frontend only suppo
     Password: password
     ```
 
-+ After logging in, you can set fixtures by clicking the `good, medium, bad` buttons on the home page before submitting it for classification. Fixtures are treated as anchors in Wakaru’s analysis, in that they help define email categories. When you set a fixture, every email in your account is reclassified using the new parameter. Through the use of fixtures, your results will be tailored to your specific needs and reflect your professional requirements. By choosing `no fixture`, you are letting Wakaru classify the email for you. 
+### Result Categories
 
++ There are three categories, each with three scores. The categories, from left to right, are `good, medium, bad`.
++ Within each category the three scores are `Enjoyment Score` (green), [Big 5 Score](https://www.ibm.com/blogs/watson/2016/02/293/) (orange) and `Dissatisfaction Score` (red).
++ The bars (scores) are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red,a higher score is a good thing.
++ All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays.
+
+### Result Fixtures
+
++ After logging in, you can set fixtures by clicking the `good, medium, bad` buttons on the home page before submitting it for classification. Fixtures are treated as anchors in Wakaru’s analysis, in that they help you define what you believe should be a good or bad email. When you set a fixture, every email in your account is reclassified using the new parameter. Through the use of fixtures, your results will be tailored to your specific needs and reflect your professional requirements. By choosing `no fixture`, you are letting Wakaru classify the email for you.
 + If you use the public username, be aware that the anyone can set fixtures and manipulate the results.
-
-The graphs produced when you submit an email response are grouped by category--good, medium, bad--from left to right. Each grouping has three bars for Enjoyment Score (green), Big 5 Score (orange) and Dissatisfaction Score (red). The bars are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red), a higher score is a good thing. All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays.
 
 ## Backend Setup
 
@@ -76,19 +80,22 @@ The graphs produced when you submit an email response are grouped by category--g
 + Cd into `wakaru-frontend`
 + Run `npm install`
 + Run `PORT=3030 npm start`
-+ Visit `localhost:3030` in your browser, while the backend is still running, and use the following credentials to login:
-
-    ```text
-    Username: Wakaru
-    Password: password
-    ```
++ Visit `localhost:3030` in your browser, while the backend is running
 
 ## Media
+
 + Login process:
+
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/login.gif)
+
 + Submitting an email:
+
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/submit.gif)
+
 + Setting a fixture on a new email:
+
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/fixture.gif)
+
 + Overall view:
+
 ![Alt Text](https://github.com/ACC25/wakaru/blob/master/media/overall.jpeg)
