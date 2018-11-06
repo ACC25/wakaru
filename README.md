@@ -45,7 +45,7 @@ Wakaru is a proof of concept for classifying emails, and the frontend only suppo
 
 + There are three categories, each with three scores. The categories, from left to right, are `good, medium, bad`.
 + Within each category the three scores are `Enjoyment Score` (green), [Big 5 Score](https://www.ibm.com/blogs/watson/2016/02/293/) (orange) and `Dissatisfaction Score` (red).
-+ The bars (scores) are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the Dissatisfaction Score (red,a higher score is a good thing.
++ The bars (scores) are based on the percentile rank of each score in relation to the category in question. Generally, higher scores mean the email will be categorized in a more positive category. A perfect email for instance, would score in a high percentile rank (90 or above) across all categories and scores. Poor emails will score lower percentile ranks. This means that in the case of the `Dissatisfaction Score` (red), a higher score is a good thing.
 + All scores were designed to be progressive, in that as you move away from zero it implies positive tonal metrics. The predictions are a summary of the graphical data Wakaru displays.
 
 ### Result Fixtures
